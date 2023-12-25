@@ -321,12 +321,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "443144c8cdadd93ebf52ddb4056d257f5b52c04d3c804e657d19eb73fc33668b"
 
 [[package]]
-name = "hostname-validator"
-version = "1.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f558a64ac9af88b5ba400d99b579451af0d39c6d360980045b91aac966d705e2"
-
-[[package]]
 name = "http"
 version = "0.2.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -812,14 +806,12 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "colored",
- "hostname-validator",
  "regex",
  "reqwest",
  "serde",
  "serde_json",
  "structopt",
  "tokio",
- "url",
 ]
 
 [[package]]

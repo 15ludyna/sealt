@@ -1,6 +1,11 @@
 [package]
 name = "sealt"
-version = "0.1.0"
+version = "1.0.0"
+authors = ["15ludyna"]
+description = "Website status checker"
+readme = "README.md"
+homepage = "https://github.com/15ludyna/sealt"
+repository = "https://github.com/15ludyna/sealt"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
